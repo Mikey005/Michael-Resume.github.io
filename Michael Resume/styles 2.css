@@ -1,0 +1,176 @@
+/* Global reset and font settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body settings */
+body {
+  background-color: #f5f5f5; /* Light gray background */
+  color: #333; /* Dark text for readability */
+  line-height: 1.6;
+  font-size: 16px;
+  padding: 0;
+}
+
+/* Header Styling */
+header {
+  background-color: #4e9f5f; /* Soft green */
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.contact {
+  color: white;
+  text-decoration: none;
+  background-color: #387b48; /* Darker green */
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 30px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact:hover {
+  background-color: #255c3b; /* Even darker green */
+  transform: translateY(-3px); /* Hover effect for the button */
+}
+
+/* Container for the layout */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; /* Center align the content in the container */
+}
+
+/* Section Styling (uniform for all sections) */
+section {
+  padding: 40px 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-align: center; /* Center all text inside sections */
+}
+
+h2 {
+  font-size: 2rem;
+  color: #4e9f5f; /* Green color for section headings */
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+/* List Styling */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Hover effect for list items in sections */
+ul li:hover {
+  color: #4e9f5f; /* Change color on hover */
+  cursor: pointer;
+}
+
+/* Experience Section */
+.job {
+  margin-bottom: 20px;
+}
+
+.job h3 {
+  color: #4e9f5f;
+  font-weight:;
+}
+
+.skills ul li {
+  background-color: #white; /* white background for each skill */
+  color: #333; /* Dark text for readability */
+  text-align: center;
+  
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  /* Adjust for smaller screens by stacking items vertically */
+  .skills ul li {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+  }
+}
+
+/* Footer Styling */
+footer {
+  background-color: #4e9f5f; /* Green footer background */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #fff; /* Subtle top border */
+}
+
+footer p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .copyright {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
